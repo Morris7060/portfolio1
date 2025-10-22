@@ -1,6 +1,6 @@
 # Morris K. Gizzie — Portfolio
 
-### 🌍 Live at now
+### 🌍 Live now
 
 #### 👨‍💻 Co-Founder & CTO — Druptech
 
