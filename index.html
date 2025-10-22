@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Morris K. Gizzie — Co-Founder & CTO, Druptech</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- EmailJS SDK (used in script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <div class="brand">Morris <span>K.</span> Gizzie</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="toggle theme">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Morris K. Gizzie</span></h1>
+          <p class="title">Co-Founder &amp; CTO — <strong>Druptech</strong></p>
+          <p class="lead">IT Support • Systems Administrator • Web Developer</p>
+          <p class="muted">I build reliable systems and beautiful, performant web experiences. Currently focused on management systems and AI education tools.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">See my work</a>
+            <a class="btn outline" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-card animate-tilt">
+          <div class="photo-wrap">
+            <img src="portrait.jpg" alt="Morris Gizzie portrait" id="portrait">
+          </div>
+          <div class="card-info">
+            <h3>Morris K. Gizzie</h3>
+            <p class="role">Co-Founder &amp; CTO, Druptech</p>
+            <p class="small">Liberia • <a href="mailto:info@druptech.com">info@druptech.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-lead">Goal-driven IT professional with hands-on experience supporting systems, networks, and end-users. I design and build responsive websites and robust admin systems.</p>
+      <div class="about-grid">
+        <div class="about-item">
+          <h4>What I do</h4>
+          <ul>
+            <li>IT Support & Troubleshooting</li>
+            <li>System & Network Administration</li>
+            <li>Web Applications (HTML, CSS, JS)</li>
+            <li>Project architecture & documentation</li>
+          </ul>
+        </div>
+        <div class="about-item">
+          <h4>Highlights</h4>
+          <ul>
+            <li>Co-Founder &amp; CTO at Druptech</li>
+            <li>Delivered management systems for churches and schools</li>
+            <li>Built AI-enabled education tooling (Mentora)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills container">
+      <h2 class="section-title">Core Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5<br><small>Semantic, accessible markup</small></div>
+        <div class="skill-card">CSS3<br><small>Responsive layout, animations</small></div>
+        <div class="skill-card">JavaScript<br><small>Vanilla JS, UX interactions</small></div>
+        <div class="skill-card">Systems<br><small>Windows &amp; Linux admin</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects container">
+      <h2 class="section-title">Selected Projects</h2>
+      <p class="section-lead">Three major systems I've architected and shipped.</p>
+
+      <div class="projects-grid">
+        <article class="project card-anim">
+          <h3>Church Management System</h3>
+          <p>A comprehensive web-based system for church administration.</p>
+          <ul class="feature-list">
+            <li>Membership management</li>
+            <li>Tithe &amp; offering management</li>
+            <li>Departments management</li>
+            <li>Bulk Messaging (SMS/Email)</li>
+            <li>Reports &amp; Analysis</li>
+          </ul>
+          <div class="tags"><span>Admin</span><span>Payments</span><span>Messaging</span></div>
+        </article>
+
+        <article class="project card-anim">
+          <h3>School Management System</h3>
+          <p>Web-based system to manage school day-to-day activities.</p>
+          <ul class="feature-list">
+            <li>Student &amp; grade management</li>
+            <li>Teacher &amp; student portals</li>
+            <li>Fees invoicing &amp; receipts</li>
+            <li>Library &amp; ID card management</li>
+          </ul>
+          <div class="tags"><span>Education</span><span>Portal</span><span>Billing</span></div>
+        </article>
+
+        <article class="project card-anim">
+          <h3>Mentora — AI Education App</h3>
+          <p>AI-integrated platform to help WASSCE candidates prepare and explore careers.</p>
+          <ul class="feature-list">
+            <li>WASSCE past questions &amp; answers</li>
+            <li>In-app quizzes &amp; progress tracking</li>
+            <li>Exam syllabus &amp; study plans</li>
+            <li>AI Career Guide &amp; recommendations</li>
+          </ul>
+          <div class="tags"><span>AI</span><span>Learning</span><span>Mobile-ready</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-lead">Want to collaborate or need IT help? Send a message and I'll get back to you.</p>
+
+      <form id="contactForm" class="contact-form">
+        <div class="row">
+          <input type="text" id="name" name="from_name" placeholder="Your name" required>
+          <input type="email" id="email" name="reply_to" placeholder="Your email" required>
+        </div>
+        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+        <div class="form-row">
+          <button class="btn primary" type="submit">Send Message</button>
+          <div id="formStatus" class="form-status" aria-live="polite"></div>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Morris K. Gizzie • Co-Founder &amp; CTO, Druptech</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
